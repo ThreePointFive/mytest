@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to mytest
 
 You can use the [editor on GitHub](https://github.com/ThreePointFive/mytest/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
