@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学习建设</title>
+    <style type="text/css">
+        body{
+            background-image: url(./images/2.jpg);
+            background-size:100% 100%;
+            height: 80%;
+        }
+        html{
+            height: 100%;
+        }
+        @keyframes myfirst {
+            0%{opacity: 0}
+            25%{opacity: 100}
+            50%{opacity: 0}
+            100%{opacity: 0}
+        }
+        @keyframes mytwo {
+            0%{opacity: 0}
+            50%{opacity: 0}
+            75%{opacity: 100}
+            100%{opacity: 0}
+        }
+        p{
+            font-size: 100px;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+        }
+        #aa{
+            animation: myfirst 5s infinite;
+        }
+        #bb{
+            animation: mytwo 5s infinite;
+        }
+    </style>
+</head>
+<body>
+<audio src="wav/bgm.wav" controls="controls" autoplay="autoplay" loop>
+
+</audio>
+<p id="aa">清心如水，清水即心。</p>
+<p id="bb">微风无起，波澜不惊。</p>
+</body>
+</html>
