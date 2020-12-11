@@ -36,7 +36,15 @@ page{
     80%{opacity: 100}
     100%{opacity: 0}
 }
+@keyframes z {
+    0%{opacity: 0}
+    70%{opacity: 0}
+    80%{opacity: 100}
+    90%{opacity: 0}
+    100%{opacity: 0}
+}
 #c{
+    
     background-color: aquamarine;
     animation: c 10s infinite;
 }
@@ -45,10 +53,17 @@ page{
     animation: x 10s infinite;
 }
 #q{
+    background-image: url("../images/2.jpg");
+    background-size: 100%100%;
     animation: q 10s infinite;
 }
 #d{
     background-color:black ;
     color: white;
     animation: d 10s infinite;
+}
+#z{
+    font-size:36px;
+    display: block;
+    animation: z 10s infinite;
 }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第二杯半价</title>
+    <style>
+        body{
+            font-size: 100px;
+        }
+    </style>
+    <script>
+        var totalPrice;
+        function fTotalPrice(u,c) {
+            if(c%2==0)
+            {
+                return u*c*0.75;
+            }
+            else
+            {
+                return u*c*0.75+u/4;
+            }
+        }
+        var unitPrice=prompt("请输入单价：");
+        var count=prompt("请输入数量：");
+
+        totalPrice=fTotalPrice(unitPrice,count);
+        document.write("总价："+totalPrice);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
